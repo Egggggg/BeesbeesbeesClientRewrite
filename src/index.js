@@ -15,3 +15,21 @@
   * You should have received a copy of the GNU General Public License
   * along with DetristaClient.  If not, see <https://www.gnu.org/licenses/>.
   */
+
+import React from "react";
+import ReactDom from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./app";
+import Home from "./routes/home";
+import "./index.css";
+
+ReactDom.render(
+	<BrowserRouter>
+		<Routes>
+			<Route path="/" element={<App />}>
+				<Route path="/home" element={<Home />} />
+			</Route>
+		</Routes>
+	</BrowserRouter>,
+	document.getElementById("root")
+);
