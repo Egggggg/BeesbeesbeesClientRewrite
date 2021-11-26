@@ -21,7 +21,7 @@ import ReactDom from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./app";
 import Home from "./routes/home";
-import "./index.css";
+import "./styles/index.css";
 
 ReactDom.render(
 	<BrowserRouter>
