@@ -24,3 +24,6 @@ yarn-error.log*
 
 # file with notice for code file headers
 notice
+
+# vs code workspace files
+.vscode/
