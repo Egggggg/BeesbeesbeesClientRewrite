@@ -23,8 +23,9 @@ export default function App() {
 
 	return (
 		<div>
+			<div id="header">
 			<nav>
-				<ul className="header">
+					<ul>
 					<li>
 						<NavLink to="/">Home</NavLink>
 					</li>
@@ -44,6 +45,7 @@ export default function App() {
 					</li>
 				</ul>
 			</nav>
+			</div>
 			<Outlet />
 		</div>
 	);
