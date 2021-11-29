@@ -19,32 +19,32 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 export default function App() {
-  const loggedIn = false;
+	const loggedIn = false;
 
-  return (
-    <div>
-      <nav>
-        <ul className="header">
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/tournament">Tournament</NavLink>
-          </li>
-          <li>
-            <NavLink to="/shop">Shop</NavLink>
-          </li>
-          <li>
-            <NavLink to="/community">Community</NavLink>
-          </li>
-          <li>
-            <NavLink to={loggedIn ? "/logout" : "/login"}>
-              {loggedIn ? "Log Out" : "Log In"}
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-      <Outlet />
-    </div>
-  );
+	return (
+		<div>
+			<nav>
+				<ul className="header">
+					<li>
+						<NavLink to="/">Home</NavLink>
+					</li>
+					<li>
+						<NavLink to="/tournament">Tournament</NavLink>
+					</li>
+					<li>
+						<NavLink to="/shop">Shop</NavLink>
+					</li>
+					<li>
+						<NavLink to="/community">Community</NavLink>
+					</li>
+					<li>
+						<NavLink to={loggedIn ? "/logout" : "/login"}>
+							{loggedIn ? "Log Out" : "Log In"}
+						</NavLink>
+					</li>
+				</ul>
+			</nav>
+			<Outlet />
+		</div>
+	);
 }
