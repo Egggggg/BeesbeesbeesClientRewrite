@@ -1,18 +1,38 @@
-/**
-  * Copyright 2021 Bee Clark
-  * This file is part of DetristaClient.
-  * 
-  * DetristaClient is free software: you can redistribute it and/or modify
-  * it under the terms of the GNU General Public License as published by
-  * the Free Software Foundation, either version 3 of the License, or
-  * (at your option) any later version.
-  * 
-  * DetristaClient is distributed in the hope that it will be useful,
-  * but WITHOUT ANY WARRANTY; without even the implied warranty of
-  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
-  * GNU General Public License for more details.
-  * 
-  * You should have received a copy of the GNU General Public License
-  * along with DetristaClient.  If not, see <https://www.gnu.org/licenses/>.
-  */
+body {
+	width: 75%;
+	margin: 2.5em auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+#root {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#header, #header ul {
+	display: flex;
+	flex-direction: row;;
+}
+
+#header li {
+	list-style: none;
+}
+
+#header li a {
+	color: rgb(203, 112, 208);
+	background-color: rgba(103, 12, 108, 127);
+	padding: .5em 1em .5em 1em;
+	text-decoration: none;
+}
+
+#header li a:hover {
+	background-color: rgba(133, 42, 138, 127)
+}
+
+#header li a.active {
+	color: rgb(173, 82, 178);
+}
