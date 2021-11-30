@@ -13,9 +13,10 @@ body {
 	align-items: center;
 }
 
-#header, #header ul {
+#header,
+#header ul {
 	display: flex;
-	flex-direction: row;;
+	flex-direction: row;
 }
 
 #header li {
@@ -25,12 +26,12 @@ body {
 #header li a {
 	color: rgb(203, 112, 208);
 	background-color: rgba(103, 12, 108, 127);
-	padding: .5em 1em .5em 1em;
+	padding: 0.5em 1em 0.5em 1em;
 	text-decoration: none;
 }
 
 #header li a:hover {
-	background-color: rgba(133, 42, 138, 127)
+	background-color: rgba(133, 42, 138, 127);
 }
 
 #header li a.active {
