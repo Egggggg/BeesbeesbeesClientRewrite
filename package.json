@@ -1,6 +1,7 @@
 {
   "name": "detristaclient",
   "version": "0.1.0",
+  "homepage": "https://detrista.beesbeesbees.me",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1"
+    "eslint-plugin-react": "^7.27.1",
+    "gh-pages": "^3.2.3"
   }
 }
