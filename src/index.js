@@ -21,6 +21,7 @@ ReactDom.render(
 			<Routes>
 				<Route path="/" element={<App />}>
 					<Route index element={<Home />} />
+					<Route path="settings" element={<Settings />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
