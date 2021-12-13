@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
-import logo from "./img/logo.png";
 
 import LoginButton from "./components/loginbutton";
+import logo from "./img/logo.png";
 
 export default function App() {
 	return (
