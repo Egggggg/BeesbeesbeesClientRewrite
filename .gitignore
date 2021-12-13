@@ -22,8 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# file with notice for code file headers
-notice
-
 # vs code workspace files
 .vscode/

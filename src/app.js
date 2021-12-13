@@ -1,9 +1,9 @@
 import { NavLink, Outlet } from "react-router-dom";
-import logo from "../src/img/logo.png";
+import logo from "./img/logo.png";
+
+import LoginButton from "./components/loginbutton";
 
 export default function App() {
-	const loggedIn = false;
-
 	return (
 		<div>
 			<div id="header">
@@ -25,9 +25,7 @@ export default function App() {
 							<NavLink to="/community">Community</NavLink>
 						</li>
 						<li>
-							<NavLink to={loggedIn ? "/logout" : "/login"}>
-								{loggedIn ? "Log Out" : "Log In/Register"}
-							</NavLink>
+							<LoginButton />
 						</li>
 					</ul>
 				</nav>

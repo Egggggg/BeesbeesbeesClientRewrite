@@ -1,7 +1,3 @@
-#root {
-	background-color: #9f0c6c;
-	background-image: url("/src/img/background.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: absolute;
+#first {
+	text-align: center;
 }
