@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import logo from "../src/img/logo.png";
 
 export default function App() {
 	const loggedIn = false;
@@ -7,7 +8,7 @@ export default function App() {
 		<div>
 			<div id="header">
 				<a href="/" id="logo">
-					<img src="/public/img/logo.png" />
+					<img src={logo} width="64px" />
 				</a>
 				<nav>
 					<ul>
