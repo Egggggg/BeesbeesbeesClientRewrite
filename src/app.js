@@ -25,6 +25,9 @@ export default function App() {
 							<NavLink to="/community">Community</NavLink>
 						</li>
 						<li>
+							<NavLink to="/settings">Settings</NavLink>
+						</li>
+						<li>
 							<LoginButton />
 						</li>
 					</ul>
