@@ -26,7 +26,7 @@ export default function App() {
 						</li>
 						<li>
 							<NavLink to={loggedIn ? "/logout" : "/login"}>
-								{loggedIn ? "Log Out" : "Log In"}
+								{loggedIn ? "Log Out" : "Log In/Register"}
 							</NavLink>
 						</li>
 					</ul>
