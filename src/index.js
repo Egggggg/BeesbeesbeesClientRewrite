@@ -13,8 +13,8 @@ import "./styles/root.css";
 
 ReactDom.render(
 	<Auth0Provider
-		domain="dev-xaro0z-l.us.auth0.com"
-		clientId="QsDwvT3OyGqkm7NjXxlE0vZOajRPwk7Q"
+		domain={config.domain}
+		clientId={config.clientId}
 		redirectUri={window.location.origin}
 	>
 		<BrowserRouter>
