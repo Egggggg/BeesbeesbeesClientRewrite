@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
-import logo from "../src/img/logo.png";
+import logo from "./img/logo.png";
+
 
 export default function App() {
 	const loggedIn = false;
