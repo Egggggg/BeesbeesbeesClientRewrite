@@ -4,7 +4,7 @@ export default function LoginButton() {
 	const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
 
 	if (isLoading) {
-		return <a>Loading...</a>;
+		return <a>Log In</a>;
 	}
 
 	return (
