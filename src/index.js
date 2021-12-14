@@ -12,19 +12,19 @@ import Settings from "./routes/settings";
 import "./styles/root.css";
 
 ReactDom.render(
-	<Auth0Provider
-		domain={config.domain}
-		clientId={config.clientId}
-		redirectUri={window.location.origin}
-	>
-		<BrowserRouter>
+	<BrowserRouter>
+		<Auth0Provider
+			domain={config.domain}
+			clientId={config.clientId}
+			redirectUri={window.location.origin}
+		>
 			<Routes>
 				<Route path="/" element={<App />}>
 					<Route index element={<Home />} />
 					<Route path="settings" element={<Settings />} />
 				</Route>
 			</Routes>
-		</BrowserRouter>
-	</Auth0Provider>,
+		</Auth0Provider>
+	</BrowserRouter>,
 	document.getElementById("root")
 );
