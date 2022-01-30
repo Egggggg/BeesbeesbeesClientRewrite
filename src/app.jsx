@@ -8,7 +8,7 @@ export default function App() {
 		<div>
 			<div id="header">
 				<a href="/" id="logo">
-					<img src={logo} width="64px" />
+					<img src={logo} alt="" width="64px" />
 				</a>
 				<nav>
 					<ul>

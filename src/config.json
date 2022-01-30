@@ -1,4 +1,8 @@
 {
 	"domain": "dev-xaro0z-l.us.auth0.com",
-	"clientId": "QsDwvT3OyGqkm7NjXxlE0vZOajRPwk7Q"
+	"clientId": "QsDwvT3OyGqkm7NjXxlE0vZOajRPwk7Q",
+	"audience": "https://detrista.beesbeesbees.me",
+	"scopes": "read:messages read:game_data join:game write:messages create:game",
+	"devApi": "localhost:8080",
+	"prodApi": "/"
 }

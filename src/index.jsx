@@ -17,6 +17,8 @@ ReactDom.render(
 			domain={config.domain}
 			clientId={config.clientId}
 			redirectUri={window.location.origin}
+			audience={config.audience}
+			scope={config.scope}
 		>
 			<Routes>
 				<Route path="/" element={<App />}>
