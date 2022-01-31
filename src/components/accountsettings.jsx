@@ -33,7 +33,9 @@ export default function AccountSettings() {
 			);
 		}
 
-		getPrivate();
+		if (token !== "failure") {
+			getPrivate();
+		}
 	}, [token]);
 
 	if (isLoading) {
